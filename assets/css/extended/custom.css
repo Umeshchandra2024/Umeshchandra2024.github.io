@@ -1,0 +1,23 @@
+/* Custom styles to match the reference blog */
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: var(--secondary);
+}
+
+.footer span {
+    margin: 0 0.25rem;
+}
+
+.footer a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+

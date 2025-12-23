@@ -1,0 +1,52 @@
+baseURL: "https://umeshchandra2024.github.io/"
+languageCode: "en-us"
+title: "Umesh Chandra"
+theme: "PaperMod"
+
+params:
+  env: production
+  title: "Umesh Chandra"
+  description: "Personal blog and portfolio"
+  author: "Umesh Chandra"
+  
+  # PaperMod theme settings
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 30
+    - identifier: audits
+      name: Audits
+      url: /audits/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
